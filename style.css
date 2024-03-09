@@ -489,3 +489,65 @@ nav {
        /* border: 2px solid white; */
 
 }
+
+.footer {
+       display: flex;
+       justify-content:center;
+       color: #fff;
+       padding: 20px;
+       position: relative;
+       bottom: 0;
+       width: 100%;
+     }
+     
+     .footer-column {
+       flex: 3;
+       text-align:center;
+       line-height: 1.5;
+     }
+     
+     .footer-column ul {
+       list-style: none;
+       padding: 0;
+       text-align: center;
+     }
+     
+     .footer-column li {
+       margin: 5px 0;
+       list-style: none;
+       
+     }
+     
+     /* Optional: Style the bullets */
+     .footer-column li:before {
+       content: "\2022"; /* Unicode character for a bullet point */
+       color: #fff;
+       display: inline-block;
+       width: 1em;
+       margin-left: -1em;
+     }
+     /* Add this CSS code to your existing styles.css or gyminstructor.css */
+   
+   .alphagym {
+       font-weight: bold;
+     text-transform: uppercase;
+     letter-spacing: -1px; /* Reduce letter spacing */
+     font-size: 23px; /* Adjust the font size */
+     line-height: 1.1; /* Adjust the line height */
+     padding-top: 10px; /* Adjust the top padding */
+     padding-bottom: 3px; /* Adjust the bottom padding */;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     }
+     
+     .alphagym .alpha {
+       color: #f00; /* Orange color for ALPHA */
+       text-shadow: 2px 2px 8px rgba(29, 29, 29, 0.7); 
+       font-weight: bolder;
+       font-size: 23px;
+     }
+     
+     .alphagym .gym {
+       color:#fff;/* White color for GYM */
+       font-size: 23px;
+       text-shadow: 2px 2px 8px rgba(255, 204, 0, 0.7); 
+     }

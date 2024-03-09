@@ -12,6 +12,17 @@ body {
 
 }
 
+html::-webkit-scrollbar-thumb {
+  background: #a90a0a;
+}
+
+html::-webkit-scrollbar-track {
+  background: #000;
+}
+
+html::-webkit-scrollbar {
+  width: 0.5rem;
+}
 nav {
   /* background-color: #191c29; */
   color: rgb(6, 6, 6);

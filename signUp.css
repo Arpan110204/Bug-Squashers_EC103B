@@ -1,5 +1,5 @@
 body {
-    background: url("img/gynGirl.jpg");
+    background: url("gynGirl.jpg");
     font-family:Arial,sans-serif ;
 }
 nav {
@@ -135,17 +135,6 @@ nav {
 .box input[type="phone"]:hover{
     border-bottom: 0.2vw solid #ffffff;
 } 
-html::-webkit-scrollbar-thumb {
-    background: #a90a0a;
-}
-
-html::-webkit-scrollbar-track {
-    background: #000;
-}
-
-html::-webkit-scrollbar {
-    width: 0.5rem;
-}
 
 footer{
     background: black;
@@ -221,3 +210,15 @@ footer{
     transform: scale(1.05);
     /* Scale up on hover */
   }
+ html::-webkit-scrollbar-thumb {
+    background: #a90a0a;
+}
+
+html::-webkit-scrollbar-track {
+    background: #000;
+}
+
+html::-webkit-scrollbar {
+    width: 0.5rem;
+}
+  
